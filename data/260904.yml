@@ -1,0 +1,75 @@
+about:
+  description: Mirror of Apache Subversion
+  license: Apache-2.0
+  homepage: 
+  head: cbfb121
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-09-04T05:02:49Z
+timeline:
+  created: 2009-12-31
+  lastCommit: 2026-09-03
+  lastRelease: ?
+popularity:
+  star: 641
+  watcher: 36
+  fork: 196
+  release: 0
+  contributor: 47
+  pullRequest: 25
+  issue: 0
+language:
+  C: 26676089
+  Python: 7112234
+  Java: 1761146
+  C++: 1272687
+  Perl: 515105
+  Ruby: 471787
+  Emacs Lisp: 427780
+  HTML: 362623
+  M4: 261411
+  Shell: 226820
+  SWIG: 192905
+  Makefile: 156637
+  CMake: 75837
+  Roff: 54093
+  XSLT: 28556
+  Go Template: 6328
+  Vim Script: 5801
+  Batchfile: 5095
+  HolyC: 3705
+  CSS: 3297
+totalLine: 39619936
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 8
+  last90d:
+    since: 2026-06-06
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 62
+  last180d:
+    since: 2026-03-08
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 253
+  last360d:
+    since: 2025-09-09
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 379
