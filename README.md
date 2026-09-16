@@ -14,13 +14,13 @@ x install subversion
 
 ## Code insight
 
-Total: **744,036** lines of code across **1372** files in the top 5 languages.
+Total: **743,537** lines of code across **1371** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 426,664 | 85,055 | 82,196 | 608 |
+| C | 426,567 | 85,046 | 82,178 | 608 |
 | Python | 136,712 | 29,159 | 28,826 | 271 |
-| CHeader | 38,925 | 57,303 | 12,484 | 310 |
+| CHeader | 38,523 | 57,227 | 12,408 | 309 |
 | Svg | 33,121 | 7 | 5 | 8 |
 | Java | 24,978 | 19,406 | 5,077 | 175 |
 
@@ -45,18 +45,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61638
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61639
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 0 | 0 | 0 | 0 | 0 | 13 |
-| last60d | 2026-07-17 | 0 | 0 | 0 | 0 | 0 | 33 |
-| 90d | 2026-06-17 | 0 | 0 | 0 | 0 | 0 | 70 |
-| last180d | 2026-03-19 | 0 | 0 | 0 | 0 | 0 | 250 |
-| 360d | 2025-09-20 | 0 | 0 | 0 | 0 | 0 | 385 |
-| last720d | 2024-09-25 | 0 | 0 | 3 | 0 | 0 | 914 |
+| 30d | 2026-08-17 | 0 | 0 | 0 | 0 | 0 | 14 |
+| last60d | 2026-07-18 | 0 | 0 | 0 | 0 | 0 | 34 |
+| 90d | 2026-06-18 | 0 | 0 | 0 | 0 | 0 | 71 |
+| last180d | 2026-03-20 | 0 | 0 | 0 | 0 | 0 | 251 |
+| 360d | 2025-09-21 | 0 | 0 | 0 | 0 | 0 | 386 |
+| last720d | 2024-09-26 | 0 | 0 | 3 | 0 | 0 | 898 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for subversion lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T05:25:37Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T05:17:07Z._
