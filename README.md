@@ -14,11 +14,11 @@ x install subversion
 
 ## Code insight
 
-Total: **743,504** lines of code across **1371** files in the top 5 languages.
+Total: **743,507** lines of code across **1371** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 426,534 | 85,046 | 82,175 | 608 |
+| C | 426,537 | 85,046 | 82,175 | 608 |
 | Python | 136,712 | 29,159 | 28,826 | 271 |
 | CHeader | 38,523 | 57,227 | 12,408 | 309 |
 | Svg | 33,121 | 7 | 5 | 8 |
@@ -45,18 +45,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61643
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61644
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-21 | 0 | 0 | 0 | 0 | 0 | 13 |
-| last60d | 2026-07-22 | 0 | 0 | 0 | 0 | 0 | 21 |
-| 90d | 2026-06-22 | 0 | 0 | 0 | 0 | 0 | 66 |
-| last180d | 2026-03-24 | 0 | 0 | 0 | 0 | 0 | 247 |
-| 360d | 2025-09-25 | 0 | 0 | 0 | 0 | 0 | 386 |
-| last720d | 2024-09-30 | 0 | 0 | 3 | 0 | 0 | 893 |
+| 30d | 2026-08-22 | 0 | 0 | 0 | 0 | 0 | 13 |
+| last60d | 2026-07-23 | 0 | 0 | 0 | 0 | 0 | 21 |
+| 90d | 2026-06-23 | 0 | 0 | 0 | 0 | 0 | 66 |
+| last180d | 2026-03-25 | 0 | 0 | 0 | 0 | 0 | 247 |
+| 360d | 2025-09-26 | 0 | 0 | 0 | 0 | 0 | 386 |
+| last720d | 2024-10-01 | 0 | 0 | 3 | 0 | 0 | 894 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for subversion lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260920.yml` · 2026-09-20T05:11:36Z._
+_Snapshot: `data/card/260921.yml` · 2026-09-21T05:20:06Z._
