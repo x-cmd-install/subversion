@@ -30,8 +30,8 @@ Overall score: **4.5 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -41,22 +41,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 646 · **Forks**: 195 · **Open issues**: 0 · **Contributors**: 36
+- **Stars**: 647 · **Forks**: 195 · **Open issues**: 0 · **Contributors**: 36
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61646
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61653
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 0 | 0 | 0 | 0 | 8 |
-| last60d | 2026-08-06 | 0 | 0 | 0 | 0 | 0 | 14 |
-| 90d | 2026-07-07 | 0 | 0 | 0 | 0 | 0 | 63 |
-| last180d | 2026-04-08 | 0 | 0 | 0 | 0 | 0 | 203 |
-| 360d | 2025-10-10 | 0 | 0 | 0 | 0 | 0 | 386 |
-| last720d | 2024-10-15 | 0 | 0 | 3 | 0 | 0 | 869 |
+| 30d | 2026-09-06 | 0 | 0 | 0 | 0 | 0 | 13 |
+| last60d | 2026-08-07 | 0 | 0 | 0 | 0 | 0 | 19 |
+| 90d | 2026-07-08 | 0 | 0 | 0 | 0 | 0 | 68 |
+| last180d | 2026-04-09 | 0 | 0 | 0 | 0 | 0 | 208 |
+| 360d | 2025-10-11 | 0 | 0 | 0 | 0 | 0 | 391 |
+| last720d | 2024-10-16 | 0 | 0 | 3 | 0 | 0 | 876 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for subversion lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T05:51:43Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T06:49:54Z._
