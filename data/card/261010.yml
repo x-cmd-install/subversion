@@ -356,3 +356,4 @@ checks:
       - 'Info: Found linked content: github.com/apache/.github/.github/SECURITY.md:1'
       - 'Info: Found disclosure, vulnerability, and/or timelines in security policy: github.com/apache/.github/.github/SECURITY.md:1'
       - 'Info: Found text in security policy: github.com/apache/.github/.github/SECURITY.md:1'
+---
