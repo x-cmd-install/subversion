@@ -45,18 +45,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61654
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61655
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 0 | 0 | 0 | 0 | 5 |
-| last60d | 2026-08-14 | 0 | 0 | 0 | 0 | 0 | 19 |
-| 90d | 2026-07-15 | 0 | 0 | 0 | 0 | 0 | 41 |
-| last180d | 2026-04-16 | 0 | 0 | 0 | 0 | 0 | 203 |
-| 360d | 2025-10-18 | 0 | 0 | 0 | 0 | 0 | 391 |
-| last720d | 2024-10-23 | 0 | 0 | 3 | 0 | 0 | 852 |
+| 30d | 2026-09-14 | 0 | 0 | 0 | 0 | 0 | 6 |
+| last60d | 2026-08-15 | 0 | 0 | 0 | 0 | 0 | 20 |
+| 90d | 2026-07-16 | 0 | 0 | 0 | 0 | 0 | 42 |
+| last180d | 2026-04-17 | 0 | 0 | 0 | 0 | 0 | 204 |
+| 360d | 2025-10-19 | 0 | 0 | 0 | 0 | 0 | 392 |
+| last720d | 2024-10-24 | 0 | 0 | 3 | 0 | 0 | 851 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for subversion lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T07:09:11Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T05:06:57Z._
