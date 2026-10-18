@@ -51,12 +51,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-17 | 0 | 0 | 0 | 0 | 0 | 6 |
-| last60d | 2026-08-18 | 0 | 0 | 0 | 0 | 0 | 20 |
-| 90d | 2026-07-19 | 0 | 0 | 0 | 0 | 0 | 42 |
-| last180d | 2026-04-20 | 0 | 0 | 0 | 0 | 0 | 204 |
-| 360d | 2025-10-22 | 0 | 0 | 0 | 0 | 0 | 392 |
-| last720d | 2024-10-27 | 0 | 0 | 3 | 0 | 0 | 851 |
+| 30d | 2026-09-18 | 0 | 0 | 0 | 0 | 0 | 6 |
+| last60d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 20 |
+| 90d | 2026-07-20 | 0 | 0 | 0 | 0 | 0 | 30 |
+| last180d | 2026-04-21 | 0 | 0 | 0 | 0 | 0 | 198 |
+| 360d | 2025-10-23 | 0 | 0 | 0 | 0 | 0 | 392 |
+| last720d | 2024-10-28 | 0 | 0 | 3 | 0 | 0 | 840 |
 
 ## Improve this data
 
@@ -67,4 +67,4 @@ Install metadata for subversion lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261017.yml` · 2026-10-17T04:35:29Z._
+_Snapshot: `data/card/261018.yml` · 2026-10-18T04:46:02Z._
