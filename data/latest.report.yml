@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-10-29T06:02:09Z
+  collectedAt: 2026-10-30T06:07:12Z
 timeline:
   created: 2009-12-31
   lastCommit: 2026-10-13
@@ -46,7 +46,7 @@ language:
 totalBytes: 39600435
 recent:
   last30d:
-    since: 2026-09-29
+    since: 2026-09-30
     release: 0
     mergedPR: 0
     openPR: 0
@@ -54,7 +54,7 @@ recent:
     openIssue: 0
     commit: 6
   last60d:
-    since: 2026-08-30
+    since: 2026-08-31
     release: 0
     mergedPR: 0
     openPR: 0
@@ -62,7 +62,7 @@ recent:
     openIssue: 0
     commit: 17
   last90d:
-    since: 2026-07-31
+    since: 2026-08-01
     release: 0
     mergedPR: 0
     openPR: 0
@@ -70,7 +70,7 @@ recent:
     openIssue: 0
     commit: 27
   last180d:
-    since: 2026-05-02
+    since: 2026-05-03
     release: 0
     mergedPR: 0
     openPR: 0
@@ -78,7 +78,7 @@ recent:
     openIssue: 0
     commit: 186
   last360d:
-    since: 2025-11-03
+    since: 2025-11-04
     release: 0
     mergedPR: 0
     openPR: 0
@@ -86,13 +86,13 @@ recent:
     openIssue: 0
     commit: 392
   last720d:
-    since: 2024-11-08
+    since: 2024-11-09
     release: 0
     mergedPR: 0
     openPR: 3
     closedIssue: 0
     openIssue: 0
-    commit: 840
+    commit: 839
 total:
   release: 0
   mergedPR: 0
@@ -102,7 +102,7 @@ total:
   commit: 61655
 ---
 path: /home/runner/.x-repo/github.com/apache/subversion
-collectedAt: 2026-10-29T06:02:57Z
+collectedAt: 2026-10-30T06:07:55Z
 loc:
   C:
     code: 426536
