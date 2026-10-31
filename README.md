@@ -41,7 +41,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 651 · **Forks**: 197 · **Open issues**: 0 · **Contributors**: 36
+- **Stars**: 652 · **Forks**: 199 · **Open issues**: 0 · **Contributors**: 36
 
 ## Totals (cumulative)
 
@@ -51,16 +51,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 0 | 0 | 0 | 0 | 0 | 6 |
-| last60d | 2026-08-31 | 0 | 0 | 0 | 0 | 0 | 17 |
-| 90d | 2026-08-01 | 0 | 0 | 0 | 0 | 0 | 27 |
-| last180d | 2026-05-03 | 0 | 0 | 0 | 0 | 0 | 186 |
-| 360d | 2025-11-04 | 0 | 0 | 0 | 0 | 0 | 392 |
-| last720d | 2024-11-09 | 0 | 0 | 3 | 0 | 0 | 839 |
+| 30d | 2026-10-01 | 0 | 0 | 0 | 0 | 0 | 6 |
+| last60d | 2026-09-01 | 0 | 0 | 0 | 0 | 0 | 17 |
+| 90d | 2026-08-02 | 0 | 0 | 0 | 0 | 0 | 27 |
+| last180d | 2026-05-04 | 0 | 0 | 0 | 0 | 0 | 186 |
+| 360d | 2025-11-05 | 0 | 0 | 0 | 0 | 0 | 392 |
+| last720d | 2024-11-10 | 0 | 0 | 3 | 0 | 0 | 839 |
 
 ## Distribution status
 
-Reported by **504** distros on [repology.org](https://repology.org/project/subversion). **28** are ✅ on the latest upstream release, **331** are ⚠️ on an older version.
+Reported by **505** distros on [repology.org](https://repology.org/project/subversion). **29** are ✅ on the latest upstream release, **331** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for subversion lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T06:08:01Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:52:21Z._
