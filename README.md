@@ -14,11 +14,11 @@ x install subversion
 
 ## Code insight
 
-Total: **743,506** lines of code across **1371** files in the top 5 languages.
+Total: **743,511** lines of code across **1371** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 426,536 | 85,046 | 82,174 | 608 |
+| C | 426,541 | 85,046 | 82,174 | 608 |
 | Python | 136,712 | 29,159 | 28,826 | 271 |
 | CHeader | 38,523 | 57,227 | 12,408 | 309 |
 | Svg | 33,121 | 7 | 5 | 8 |
@@ -45,22 +45,22 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61655
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61657
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 0 | 0 | 0 | 0 | 6 |
-| last60d | 2026-09-01 | 0 | 0 | 0 | 0 | 0 | 17 |
-| 90d | 2026-08-02 | 0 | 0 | 0 | 0 | 0 | 27 |
-| last180d | 2026-05-04 | 0 | 0 | 0 | 0 | 0 | 186 |
-| 360d | 2025-11-05 | 0 | 0 | 0 | 0 | 0 | 392 |
-| last720d | 2024-11-10 | 0 | 0 | 3 | 0 | 0 | 839 |
+| 30d | 2026-10-02 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-09-02 | 0 | 0 | 0 | 0 | 0 | 14 |
+| 90d | 2026-08-03 | 0 | 0 | 0 | 0 | 0 | 23 |
+| last180d | 2026-05-05 | 0 | 0 | 0 | 0 | 0 | 158 |
+| 360d | 2025-11-06 | 0 | 0 | 0 | 0 | 0 | 388 |
+| last720d | 2024-11-11 | 0 | 0 | 3 | 0 | 0 | 841 |
 
 ## Distribution status
 
-Reported by **505** distros on [repology.org](https://repology.org/project/subversion). **29** are ✅ on the latest upstream release, **331** are ⚠️ on an older version.
+Reported by **504** distros on [repology.org](https://repology.org/project/subversion). **28** are ✅ on the latest upstream release, **331** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for subversion lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T05:52:21Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:17:35Z._
