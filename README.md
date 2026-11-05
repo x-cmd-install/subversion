@@ -14,13 +14,13 @@ x install subversion
 
 ## Code insight
 
-Total: **743,583** lines of code across **1371** files in the top 5 languages.
+Total: **741,345** lines of code across **1367** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 426,613 | 85,048 | 82,187 | 608 |
-| Python | 136,712 | 29,159 | 28,826 | 271 |
-| CHeader | 38,523 | 57,227 | 12,408 | 309 |
+| C | 426,661 | 85,053 | 82,202 | 608 |
+| Python | 134,411 | 28,834 | 28,287 | 267 |
+| CHeader | 38,542 | 57,229 | 12,408 | 309 |
 | Svg | 33,121 | 7 | 5 | 8 |
 | Java | 24,978 | 19,406 | 5,077 | 175 |
 
@@ -30,8 +30,8 @@ Overall score: **4.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
@@ -45,22 +45,22 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61660
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61673
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 0 | 0 | 0 | 1 |
-| last60d | 2026-09-05 | 0 | 0 | 0 | 0 | 0 | 14 |
-| 90d | 2026-08-06 | 0 | 0 | 0 | 0 | 0 | 23 |
-| last180d | 2026-05-08 | 0 | 0 | 0 | 0 | 0 | 158 |
-| 360d | 2025-11-09 | 0 | 0 | 0 | 0 | 0 | 388 |
-| last720d | 2024-11-14 | 0 | 0 | 3 | 0 | 0 | 844 |
+| 30d | 2026-10-06 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-09-06 | 0 | 0 | 0 | 0 | 0 | 14 |
+| 90d | 2026-08-07 | 0 | 0 | 0 | 0 | 0 | 23 |
+| last180d | 2026-05-09 | 0 | 0 | 0 | 0 | 0 | 158 |
+| 360d | 2025-11-10 | 0 | 0 | 0 | 0 | 0 | 388 |
+| last720d | 2024-11-15 | 0 | 0 | 3 | 0 | 0 | 854 |
 
 ## Distribution status
 
-Reported by **504** distros on [repology.org](https://repology.org/project/subversion). **35** are ✅ on the latest upstream release, **323** are ⚠️ on an older version.
+Reported by **504** distros on [repology.org](https://repology.org/project/subversion). **36** are ✅ on the latest upstream release, **322** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -71,7 +71,7 @@ Reported by **504** distros on [repology.org](https://repology.org/project/subve
 | Ubuntu 24.04 LTS | `1.14.3` | ⚠️ outdated |
 | Arch | `1.14.5` | ⚠️ outdated |
 | Homebrew | `1.15.0` | ✅ latest |
-| Fedora rawhide | `1.15.0` | ✅ latest |
+| Fedora rawhide | `1.14.5` | ⚠️ outdated |
 | Nix unstable | `1.14.5` | ⚠️ outdated |
 | Void | `1.14.5` | ⚠️ outdated |
 | Alpine edge | `1.14.5` | ⚠️ outdated |
@@ -86,4 +86,4 @@ Install metadata for subversion lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:35:27Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:58:50Z._

@@ -14,13 +14,13 @@ x install subversion
 
 ## 代码洞察
 
-合计: **743,583** 行代码（覆盖前 5 种语言、共 **1371** 个文件）。
+合计: **741,345** 行代码（覆盖前 5 种语言、共 **1367** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 426,613 | 85,048 | 82,187 | 608 |
-| Python | 136,712 | 29,159 | 28,826 | 271 |
-| CHeader | 38,523 | 57,227 | 12,408 | 309 |
+| C | 426,661 | 85,053 | 82,202 | 608 |
+| Python | 134,411 | 28,834 | 28,287 | 267 |
+| CHeader | 38,542 | 57,229 | 12,408 | 309 |
 | Svg | 33,121 | 7 | 5 | 8 |
 | Java | 24,978 | 19,406 | 5,077 | 175 |
 
@@ -30,8 +30,8 @@ x install subversion
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
@@ -45,22 +45,22 @@ x install subversion
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 3 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 61660
+- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 3 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 61673
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 0 | 0 | 0 | 1 |
-| last60d | 2026-09-05 | 0 | 0 | 0 | 0 | 0 | 14 |
-| 90d | 2026-08-06 | 0 | 0 | 0 | 0 | 0 | 23 |
-| last180d | 2026-05-08 | 0 | 0 | 0 | 0 | 0 | 158 |
-| 360d | 2025-11-09 | 0 | 0 | 0 | 0 | 0 | 388 |
-| last720d | 2024-11-14 | 0 | 0 | 3 | 0 | 0 | 844 |
+| 30d | 2026-10-06 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-09-06 | 0 | 0 | 0 | 0 | 0 | 14 |
+| 90d | 2026-08-07 | 0 | 0 | 0 | 0 | 0 | 23 |
+| last180d | 2026-05-09 | 0 | 0 | 0 | 0 | 0 | 158 |
+| 360d | 2025-11-10 | 0 | 0 | 0 | 0 | 0 | 388 |
+| last720d | 2024-11-15 | 0 | 0 | 3 | 0 | 0 | 854 |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/subversion) 上共有 **504** 个发行版报告此项目。**35** 个 ✅ 已是最新上游版本，**323** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/subversion) 上共有 **504** 个发行版报告此项目。**36** 个 ✅ 已是最新上游版本，**322** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -71,7 +71,7 @@ x install subversion
 | Ubuntu 24.04 LTS | `1.14.3` | ⚠️ outdated |
 | Arch | `1.14.5` | ⚠️ outdated |
 | Homebrew | `1.15.0` | ✅ latest |
-| Fedora rawhide | `1.15.0` | ✅ latest |
+| Fedora rawhide | `1.14.5` | ⚠️ outdated |
 | Nix unstable | `1.14.5` | ⚠️ outdated |
 | Void | `1.14.5` | ⚠️ outdated |
 | Alpine edge | `1.14.5` | ⚠️ outdated |
@@ -86,4 +86,4 @@ subversion 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/instal
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T06:35:29Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T06:58:51Z._
