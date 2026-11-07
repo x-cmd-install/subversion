@@ -14,7 +14,7 @@ x install subversion
 
 ## Code insight
 
-Total: **741,367** lines of code across **1367** files in the top 5 languages.
+Total: **741,362** lines of code across **1367** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -45,22 +45,22 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61681
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61682
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 0 | 0 | 0 | 0 | 2 |
-| last60d | 2026-09-07 | 0 | 0 | 0 | 0 | 0 | 15 |
-| 90d | 2026-08-08 | 0 | 0 | 0 | 0 | 0 | 24 |
-| last180d | 2026-05-10 | 0 | 0 | 0 | 0 | 0 | 159 |
-| 360d | 2025-11-11 | 0 | 0 | 0 | 0 | 0 | 389 |
-| last720d | 2024-11-16 | 0 | 0 | 3 | 0 | 0 | 862 |
+| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 0 | 2 |
+| last60d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 15 |
+| 90d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 24 |
+| last180d | 2026-05-11 | 0 | 0 | 0 | 0 | 0 | 159 |
+| 360d | 2025-11-12 | 0 | 0 | 0 | 0 | 0 | 389 |
+| last720d | 2024-11-17 | 0 | 0 | 3 | 0 | 0 | 863 |
 
 ## Distribution status
 
-Reported by **504** distros on [repology.org](https://repology.org/project/subversion). **36** are ✅ on the latest upstream release, **322** are ⚠️ on an older version.
+Reported by **499** distros on [repology.org](https://repology.org/project/subversion). **36** are ✅ on the latest upstream release, **317** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -70,7 +70,7 @@ Reported by **504** distros on [repology.org](https://repology.org/project/subve
 | Ubuntu 26.04 LTS | `1.14.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.14.3` | ⚠️ outdated |
 | Arch | `1.14.5` | ⚠️ outdated |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.15.0` | ✅ latest |
 | Fedora rawhide | `1.15.0` | ✅ latest |
 | Nix unstable | `1.14.5` | ⚠️ outdated |
 | Void | `1.14.5` | ⚠️ outdated |
@@ -86,4 +86,4 @@ Install metadata for subversion lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:56:28Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:11:52Z._
