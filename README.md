@@ -14,14 +14,14 @@ x install subversion
 
 ## Code insight
 
-Total: **741,362** lines of code across **1367** files in the top 5 languages.
+Total: **723,144** lines of code across **1302** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 426,745 | 85,077 | 82,228 | 609 |
-| Python | 134,348 | 28,813 | 28,266 | 266 |
-| CHeader | 38,542 | 57,229 | 12,408 | 309 |
-| Svg | 33,121 | 7 | 5 | 8 |
+| C | 411,898 | 81,076 | 78,561 | 576 |
+| Python | 134,338 | 28,813 | 28,266 | 266 |
+| CHeader | 37,050 | 55,262 | 11,640 | 278 |
+| Svg | 31,509 | 6 | 5 | 7 |
 | Java | 24,978 | 19,406 | 5,077 | 175 |
 
 ## OpenSSF Scorecard
@@ -45,18 +45,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61682
+- **Releases**: 0 · **Merged PRs**: 0 · **Open PRs**: 3 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 61690
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 0 | 2 |
-| last60d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 15 |
-| 90d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 24 |
-| last180d | 2026-05-11 | 0 | 0 | 0 | 0 | 0 | 159 |
-| 360d | 2025-11-12 | 0 | 0 | 0 | 0 | 0 | 389 |
-| last720d | 2024-11-17 | 0 | 0 | 3 | 0 | 0 | 863 |
+| 30d | 2026-10-09 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-09-09 | 0 | 0 | 0 | 0 | 0 | 7 |
+| 90d | 2026-08-10 | 0 | 0 | 0 | 0 | 0 | 21 |
+| last180d | 2026-05-12 | 0 | 0 | 0 | 0 | 0 | 145 |
+| 360d | 2025-11-13 | 0 | 0 | 0 | 0 | 0 | 388 |
+| last720d | 2024-11-18 | 0 | 0 | 3 | 0 | 0 | 871 |
 
 ## Distribution status
 
@@ -86,4 +86,4 @@ Install metadata for subversion lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:11:52Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:17:57Z._
