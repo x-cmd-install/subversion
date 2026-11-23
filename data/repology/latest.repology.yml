@@ -1,36 +1,38 @@
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
-  version: 1.6.3
-  origversion: 1.6.3-1
+  version: 1.7.4
+  origversion: 1.7.4-2
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
-  version: 1.7.0
-  origversion: 1.7.0-2
+  version: 1.7.5
+  origversion: 1.7.5-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
-  version: 1.7.11
-  origversion: 1.7.11-1
+  version: 1.7.7
+  origversion: 1.7.7-2
   status: legacy
   vulnerable: true
-- repo: aosc
-  srcname: app-vcs/subversion
-  binname: subversion
+- repo: aix_osp
+  srcname: subversion
   visiblename: subversion
-  version: 1.14.5
-  origversion: 1.14.5-3
-  status: outdated
-  summary: Concurrent version control system
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - vcs
+  version: 1.8.8
+  origversion: 1.8.8-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.8.9
+  origversion: 1.8.9-1
+  status: legacy
+  vulnerable: true
 - repo: aixtoolbox
   srcname: subversion
   visiblename: subversion
@@ -354,6 +356,17 @@
     - ncopa@alpinelinux.org
   licenses:
     - Apache-2.0 AND BSD-2-Clause
+- repo: chimera
+  subrepo: main
+  srcname: subversion
+  binname: subversion-man
+  visiblename: subversion-man
+  version: 1.14.5
+  origversion: 1.14.5-r2
+  status: outdated
+  summary: Centralized version control system (manual pages)
+  licenses:
+    - Apache-2.0
 - repo: alpine_3_20
   subrepo: main
   srcname: subversion
@@ -1171,6 +1184,18 @@
     - Apache-2.0
   categories:
     - Development/Other
+- repo: aosc
+  srcname: app-vcs/subversion
+  binname: subversion
+  visiblename: subversion
+  version: 1.14.5
+  origversion: 1.14.5-3
+  status: outdated
+  summary: Concurrent version control system
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - vcs
 - repo: artix
   subrepo: world
   srcname: subversion
@@ -1296,17 +1321,6 @@
   origversion: 1.14.5-r2
   status: outdated
   summary: Centralized version control system (locale data)
-  licenses:
-    - Apache-2.0
-- repo: chimera
-  subrepo: main
-  srcname: subversion
-  binname: subversion-man
-  visiblename: subversion-man
-  version: 1.14.5
-  origversion: 1.14.5-r2
-  status: outdated
-  summary: Centralized version control system (manual pages)
   licenses:
     - Apache-2.0
 - repo: chimera
@@ -1795,41 +1809,17 @@
   categories:
     - Unspecified
 - repo: freebsd
-  srcname: devel/java-subversion
-  binname: java-subversion
-  visiblename: devel/java-subversion
+  srcname: security/subversion-gnome-keyring
+  binname: subversion-gnome-keyring
+  visiblename: security/subversion-gnome-keyring
   version: 1.15.0
   origversion: null
   status: newest
-  summary: Java bindings for Apache Subversion
+  summary: GNOME Keyring credential cache for Apache Subversion
   maintainers:
     - michaelo@apache.org
   categories:
-    - devel
-- repo: freebsd
-  srcname: devel/p5-subversion
-  binname: p5-subversion
-  visiblename: devel/p5-subversion
-  version: 1.15.0
-  origversion: null
-  status: newest
-  summary: Perl bindings for Apache Subversion
-  maintainers:
-    - michaelo@apache.org
-  categories:
-    - devel
-- repo: freebsd
-  srcname: www/mod_subversion
-  binname: ap24-mod_subversion
-  visiblename: www/mod_subversion
-  version: 1.15.0
-  origversion: null
-  status: newest
-  summary: Apache HTTP Server modules for Apache Subversion
-  maintainers:
-    - michaelo@apache.org
-  categories:
-    - www
+    - security
 - repo: freebsd
   srcname: devel/py-subversion
   binname: py312-subversion
@@ -1867,17 +1857,41 @@
   categories:
     - devel
 - repo: freebsd
-  srcname: security/subversion-gnome-keyring
-  binname: subversion-gnome-keyring
-  visiblename: security/subversion-gnome-keyring
+  srcname: www/mod_subversion
+  binname: ap24-mod_subversion
+  visiblename: www/mod_subversion
   version: 1.15.0
   origversion: null
   status: newest
-  summary: GNOME Keyring credential cache for Apache Subversion
+  summary: Apache HTTP Server modules for Apache Subversion
   maintainers:
     - michaelo@apache.org
   categories:
-    - security
+    - www
+- repo: freebsd
+  srcname: devel/java-subversion
+  binname: java-subversion
+  visiblename: devel/java-subversion
+  version: 1.15.0
+  origversion: null
+  status: newest
+  summary: Java bindings for Apache Subversion
+  maintainers:
+    - michaelo@apache.org
+  categories:
+    - devel
+- repo: freebsd
+  srcname: devel/p5-subversion
+  binname: p5-subversion
+  visiblename: devel/p5-subversion
+  version: 1.15.0
+  origversion: null
+  status: newest
+  summary: Perl bindings for Apache Subversion
+  maintainers:
+    - michaelo@apache.org
+  categories:
+    - devel
 - repo: freebsd
   srcname: devel/subversion-lts
   binname: subversion-lts
@@ -2075,8 +2089,8 @@
     - devel
 - repo: macports
   srcname: devel/subversion-perlbindings
-  binname: subversion-perlbindings-5.30
-  visiblename: subversion-perlbindings-5.30
+  binname: subversion-perlbindings-5.32
+  visiblename: subversion-perlbindings-5.32
   version: 1.15.0
   origversion: null
   status: newest
@@ -2089,8 +2103,8 @@
     - devel
 - repo: macports
   srcname: devel/subversion-perlbindings
-  binname: subversion-perlbindings-5.32
-  visiblename: subversion-perlbindings-5.32
+  binname: subversion-perlbindings-5.30
+  visiblename: subversion-perlbindings-5.30
   version: 1.15.0
   origversion: null
   status: newest
@@ -2395,6 +2409,18 @@
     - devel
 - repo: openbsd
   srcname: devel/subversion
+  binname: gnome-keyring-subversion
+  visiblename: devel/subversion
+  version: 1.14.5
+  origversion: 1.14.5p2
+  status: outdated
+  summary: GNOME keyring support for subversion
+  maintainers:
+    - stsp@openbsd.org
+  categories:
+    - devel
+- repo: openbsd
+  srcname: devel/subversion
   binname: ap2-subversion
   visiblename: devel/subversion
   version: 1.14.5
@@ -2425,18 +2451,6 @@
   origversion: 1.14.5p2
   status: outdated
   summary: ruby interface to subversion
-  maintainers:
-    - stsp@openbsd.org
-  categories:
-    - devel
-- repo: openbsd
-  srcname: devel/subversion
-  binname: gnome-keyring-subversion
-  visiblename: devel/subversion
-  version: 1.14.5
-  origversion: 1.14.5p2
-  status: outdated
-  summary: GNOME keyring support for subversion
   maintainers:
     - stsp@openbsd.org
   categories:
@@ -2634,7 +2648,7 @@
   licenses:
     - Apache-2.0
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: subversion
   binnames:
     - subversion
@@ -2656,7 +2670,7 @@
   categories:
     - vcs
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: subversion
   binnames:
     - subversion
@@ -2686,30 +2700,6 @@
   summary: A Concurrent Versioning System
   categories:
     - Development/Tools
-- repo: pkgsrc_2026_2
-  srcname: www/ap2-subversion
-  binname: ap24-subversion
-  visiblename: www/ap2-subversion
-  version: 1.14.5
-  origversion: 1.14.5nb2
-  status: outdated
-  summary: WebDAV server (Apache module) for Subversion
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
-- repo: pkgsrc_2026_2
-  srcname: devel/java-subversion
-  binname: java-subversion
-  visiblename: devel/java-subversion
-  version: 1.14.5
-  origversion: 1.14.5nb2
-  status: outdated
-  summary: Java bindings for Subversion
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - devel
 - repo: pkgsrc_2026_2
   srcname: devel/p5-subversion
   binname: p5-subversion
@@ -2766,6 +2756,30 @@
   origversion: 1.14.5nb2
   status: outdated
   summary: Version control system, base programs and libraries
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
+- repo: pkgsrc_2026_2
+  srcname: www/ap2-subversion
+  binname: ap24-subversion
+  visiblename: www/ap2-subversion
+  version: 1.14.5
+  origversion: 1.14.5nb2
+  status: outdated
+  summary: WebDAV server (Apache module) for Subversion
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - devel
+- repo: pkgsrc_2026_2
+  srcname: devel/java-subversion
+  binname: java-subversion
+  visiblename: devel/java-subversion
+  version: 1.14.5
+  origversion: 1.14.5nb2
+  status: outdated
+  summary: Java bindings for Subversion
   maintainers:
     - pkgsrc-users@netbsd.org
   categories:
@@ -2944,6 +2958,15 @@
   version: 1.15.0
   origversion: 1.15.0-1
   status: newest
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: subversion
+  visiblename: subversion
+  version: 1.15.0
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
 - repo: pureos_landing
   subrepo: landing/main
   srcname: subversion
@@ -3101,15 +3124,6 @@
     - Apache-2.0
 - repo: slackware_current
   subrepo: slackware
-  binname: subversion
-  visiblename: subversion
-  version: 1.15.0
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
   binname: subversion
   visiblename: subversion
   version: 1.15.0
@@ -3368,20 +3382,6 @@
 - repo: void_x86_64
   subrepo: x86_64
   srcname: subversion
-  binname: libsvn
-  visiblename: libsvn
-  version: 1.14.5
-  origversion: 1.14.5_3
-  status: outdated
-  summary: Enterprise-class centralized version control for the masses - shared libraries
-  maintainers:
-    - chocimier@tlen.pl
-  licenses:
-    - Apache-2.0
-    - BSD-3-Clause
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: subversion
   binname: subversion
   visiblename: subversion
   version: 1.14.5
@@ -3477,12 +3477,26 @@
   licenses:
     - Apache-2.0
     - BSD-3-Clause
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: subversion
+  binname: libsvn
+  visiblename: libsvn
+  version: 1.14.5
+  origversion: 1.14.5_3
+  status: outdated
+  summary: Enterprise-class centralized version control for the masses - shared libraries
+  maintainers:
+    - chocimier@tlen.pl
+  licenses:
+    - Apache-2.0
+    - BSD-3-Clause
 - repo: vylen
   subrepo: community
   srcname: subversion
   visiblename: subversion
   version: 1.15.0
-  origversion: 1.15.0-1
+  origversion: 1.15.0-2
   status: newest
   summary: A Modern Concurrent Version Control System
   maintainers:
@@ -3499,22 +3513,168 @@
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
+  version: 1.7.1
+  origversion: 1.7.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.1
+  origversion: 1.7.1-2
+  status: legacy
+  vulnerable: true
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: subversion
+  visiblename: subversion
+  version: 1.14.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.13
+  origversion: 1.7.13-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.14
+  origversion: 1.7.14-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.8
+  origversion: 1.7.8-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.8.10
+  origversion: 1.8.10-2
+  status: outdated
+  vulnerable: true
+- repo: gobolinux
+  srcname: Subversion
+  visiblename: Subversion
+  version: 1.9.5
+  origversion: null
+  status: outdated
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: subversion
+  binname: subversion
+  visiblename: subversion
+  version: 1.14.0
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: subversion
+  binname: subversion
+  visiblename: subversion
   version: 1.8.5
-  origversion: 1.8.5-1
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: hppa_32
+  srcname: subversion
+  binname: subversion
+  visiblename: subversion
+  version: 1.9.6
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: subversion
+  binname: subversion
+  visiblename: subversion
+  version: 1.9.6
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: subversion
+  binname: subversion
+  visiblename: subversion
+  version: 1.14.0
+  origversion: null
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
-  version: 1.8.8
-  origversion: 1.8.8-1
+  version: 1.7.2
+  origversion: 1.7.2-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
-  version: 1.8.9
-  origversion: 1.8.9-1
+  version: 1.7.3
+  origversion: 1.7.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.6.15
+  origversion: 1.6.15-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.6.16
+  origversion: 1.6.16-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.6.17
+  origversion: 1.6.17-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.6.18
+  origversion: 1.6.18-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.1
+  origversion: 1.7.1-3
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.6.19
+  origversion: 1.6.19-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.6.18
+  origversion: 1.6.18-2
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3555,6 +3715,13 @@
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
+  version: 1.6.3
+  origversion: 1.6.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
   version: 1.6.4
   origversion: 1.6.4-1
   status: legacy
@@ -3590,13 +3757,6 @@
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
-  version: 1.7.1
-  origversion: 1.7.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
   version: 1.7.0
   origversion: 1.7.0-1
   status: legacy
@@ -3604,57 +3764,8 @@
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
-  version: 1.7.0
-  origversion: 1.7.0-3
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.10
-  origversion: 1.7.10-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.1
-  origversion: 1.7.1-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.1
-  origversion: 1.7.1-3
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.13
-  origversion: 1.7.13-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.14
-  origversion: 1.7.14-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.2
-  origversion: 1.7.2-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
   version: 1.7.3
-  origversion: 1.7.3-1
+  origversion: 1.7.3-2
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3662,13 +3773,6 @@
   visiblename: subversion
   version: 1.7.3
   origversion: 1.7.3-3
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.3
-  origversion: 1.7.3-2
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3682,21 +3786,7 @@
   srcname: subversion
   visiblename: subversion
   version: 1.7.4
-  origversion: 1.7.4-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.4
   origversion: 1.7.4-3
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.5
-  origversion: 1.7.5-1
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3709,22 +3799,8 @@
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
-  version: 1.8.3
-  origversion: 1.8.3-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
   version: 1.7.7
   origversion: 1.7.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.7
-  origversion: 1.7.7-2
   status: legacy
   vulnerable: true
 - repo: aix_osp
@@ -3738,36 +3814,8 @@
   srcname: subversion
   visiblename: subversion
   version: 1.7.8
-  origversion: 1.7.8-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.8.4
-  origversion: 1.8.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.8
   origversion: 1.7.8-3
   status: legacy
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: subversion
-  binname: subversion-dev
-  visiblename: subversion-dev
-  version: 1.14.2
-  origversion: 1.14.2-r0
-  status: outdated
-  summary: Version control system from 2000 (development files)
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - Apache-2.0
   vulnerable: true
 - repo: aix_osp
   srcname: subversion
@@ -3783,20 +3831,6 @@
   origversion: 1.8.0-2
   status: legacy
   vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: subversion
-  binname: subversion-doc
-  visiblename: subversion-doc
-  version: 1.14.2
-  origversion: 1.14.2-r0
-  status: outdated
-  summary: Version control system from 2000 (documentation)
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
@@ -3807,41 +3841,36 @@
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
-  version: 1.8.10
-  origversion: 1.8.10-2
-  status: outdated
-  vulnerable: true
-- repo: amazon_2
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.14
-  origversion: 1.7.14-16.amzn2.0.1
-  status: outdated
-  summary: A Modern Concurrent Version Control System
-  licenses:
-    - ASL 2.0
-  categories:
-    - Development/Tools
-  vulnerable: true
-- repo: adelie_current
-  subrepo: user
-  srcname: subversion
-  binname: subversion-gnome
-  visiblename: subversion-gnome
-  version: 1.14.2
-  origversion: 1.14.2-r0
-  status: outdated
-  summary: Version control system from 2000 (GNOME Keychain integration)
-  maintainers:
-    - awilfox@adelielinux.org
-  licenses:
-    - Apache-2.0
+  version: 1.8.1
+  origversion: 1.8.1-1
+  status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: subversion
   visiblename: subversion
-  version: 1.8.1
-  origversion: 1.8.1-1
+  version: 1.8.4
+  origversion: 1.8.4-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.8.3
+  origversion: 1.8.3-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.8.5
+  origversion: 1.8.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.11
+  origversion: 1.7.11-1
   status: legacy
   vulnerable: true
 - repo: adelie_current
@@ -3858,6 +3887,103 @@
   licenses:
     - Apache-2.0
   vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.5.5
+  origversion: 1.5.5-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.5.6
+  origversion: 1.5.6-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.5.6
+  origversion: 1.5.6-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.5.7
+  origversion: 1.5.7-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.5.9
+  origversion: 1.5.9-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.6.0
+  origversion: 1.6.0-1
+  status: legacy
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: subversion
+  visiblename: subversion
+  version: 1.10.2
+  origversion: 1.10.2-5.module+el8.6.0+15157+188c9801
+  status: legacy
+  summary: A Modern Concurrent Version Control System
+  licenses:
+    - ASL 2.0
+  categories:
+    - Development/Tools
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.6.1
+  origversion: 1.6.1-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.0
+  origversion: 1.7.0-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.6.12
+  origversion: 1.6.12-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.0
+  origversion: 1.7.0-3
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.6.13
+  origversion: 1.6.13-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.10
+  origversion: 1.7.10-1
+  status: legacy
+  vulnerable: true
 - repo: adelie_current
   subrepo: user
   srcname: subversion
@@ -3867,6 +3993,48 @@
   origversion: 1.14.2-r0
   status: outdated
   summary: Version control system from 2000 (debug symbols)
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: subversion
+  binname: subversion-dev
+  visiblename: subversion-dev
+  version: 1.14.2
+  origversion: 1.14.2-r0
+  status: outdated
+  summary: Version control system from 2000 (development files)
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: subversion
+  binname: subversion-doc
+  visiblename: subversion-doc
+  version: 1.14.2
+  origversion: 1.14.2-r0
+  status: outdated
+  summary: Version control system from 2000 (documentation)
+  maintainers:
+    - awilfox@adelielinux.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: adelie_current
+  subrepo: user
+  srcname: subversion
+  binname: subversion-gnome
+  visiblename: subversion-gnome
+  version: 1.14.2
+  origversion: 1.14.2-r0
+  status: outdated
+  summary: Version control system from 2000 (GNOME Keychain integration)
   maintainers:
     - awilfox@adelielinux.org
   licenses:
@@ -3947,111 +4115,6 @@
   visiblename: subversion
   version: 1.5.4
   origversion: 1.5.4-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.5.5
-  origversion: 1.5.5-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.5.6
-  origversion: 1.5.6-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.5.6
-  origversion: 1.5.6-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.5.7
-  origversion: 1.5.7-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.5.9
-  origversion: 1.5.9-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.6.0
-  origversion: 1.6.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.6.1
-  origversion: 1.6.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.6.12
-  origversion: 1.6.12-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.6.13
-  origversion: 1.6.13-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.6.15
-  origversion: 1.6.15-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.6.16
-  origversion: 1.6.16-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.6.17
-  origversion: 1.6.17-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.6.18
-  origversion: 1.6.18-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.6.18
-  origversion: 1.6.18-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: subversion
-  visiblename: subversion
-  version: 1.6.19
-  origversion: 1.6.19-1
   status: legacy
   vulnerable: true
 - repo: almalinux_8
@@ -4183,18 +4246,6 @@
   licenses:
     - Apache-2.0 BSD
   vulnerable: true
-- repo: amazon_2
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.14
-  origversion: 1.7.14-11.amzn2.0.1
-  status: outdated
-  summary: A Modern Concurrent Version Control System
-  licenses:
-    - ASL 2.0
-  categories:
-    - Development/Tools
-  vulnerable: true
 - repo: alpine_3_17
   subrepo: main
   srcname: subversion
@@ -4237,6 +4288,13 @@
   licenses:
     - Apache-2.0 BSD
   vulnerable: true
+- repo: gobolinux
+  srcname: Subversion-Python
+  visiblename: Subversion-Python
+  version: 1.6.5
+  origversion: null
+  status: outdated
+  vulnerable: true
 - repo: alpine_3_17
   subrepo: main
   srcname: subversion
@@ -4255,14 +4313,14 @@
   subrepo: appstream
   srcname: subversion
   visiblename: subversion
-  version: 1.10.2
-  origversion: 1.10.2-5.module+el8.6.0+15157+188c9801
-  status: legacy
+  version: 1.14.1
+  origversion: 1.14.1-1.module+el8.4.0+9885+2150d1b0
+  status: outdated
   summary: A Modern Concurrent Version Control System
   licenses:
     - ASL 2.0
   categories:
-    - Development/Tools
+    - Unspecified
   vulnerable: true
 - repo: alpine_3_17
   subrepo: main
@@ -4283,25 +4341,13 @@
   srcname: subversion
   visiblename: subversion
   version: 1.14.1
-  origversion: 1.14.1-1.module+el8.4.0+9885+2150d1b0
+  origversion: 1.14.1-2.module+el8.6.0+15201+2f551d15
   status: outdated
   summary: A Modern Concurrent Version Control System
   licenses:
     - ASL 2.0
   categories:
     - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: subversion
-  visiblename: subversion
-  version: 1.7.14
-  origversion: 1.7.14-11.amzn2.0.2
-  status: outdated
-  summary: A Modern Concurrent Version Control System
-  licenses:
-    - ASL 2.0
-  categories:
-    - Development/Tools
   vulnerable: true
 - repo: apertis_v2025
   subrepo: v2025/development
@@ -4375,6 +4421,42 @@
   categories:
     - Development/Tools
   vulnerable: true
+- repo: amazon_2
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.14
+  origversion: 1.7.14-11.amzn2.0.1
+  status: outdated
+  summary: A Modern Concurrent Version Control System
+  licenses:
+    - ASL 2.0
+  categories:
+    - Development/Tools
+  vulnerable: true
+- repo: amazon_2
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.14
+  origversion: 1.7.14-11.amzn2.0.2
+  status: outdated
+  summary: A Modern Concurrent Version Control System
+  licenses:
+    - ASL 2.0
+  categories:
+    - Development/Tools
+  vulnerable: true
+- repo: amazon_2
+  srcname: subversion
+  visiblename: subversion
+  version: 1.7.14
+  origversion: 1.7.14-16.amzn2.0.1
+  status: outdated
+  summary: A Modern Concurrent Version Control System
+  licenses:
+    - ASL 2.0
+  categories:
+    - Development/Tools
+  vulnerable: true
 - repo: apertis_v2023
   subrepo: v2023/development
   srcname: subversion
@@ -4415,18 +4497,17 @@
   maintainers:
     - jamessan@debian.org
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: subversion
-  visiblename: subversion
-  version: 1.14.1
-  origversion: 1.14.1-2.module+el8.6.0+15201+2f551d15
-  status: outdated
-  summary: A Modern Concurrent Version Control System
+- repo: npackd_stable
+  srcname: org.apache.subversion.Subversion
+  binname: org.apache.subversion.Subversion
+  visiblename: Subversion
+  version: "1.8"
+  origversion: null
+  status: legacy
   licenses:
-    - ASL 2.0
+    - Apache License 2.0
   categories:
-    - Unspecified
+    - Development
   vulnerable: true
 - repo: centos_7
   subrepo: os
@@ -4857,29 +4938,6 @@
     - Devel
   vulnerable: true
 - repo: debian_11
-  subrepo: bullseye/main
-  srcname: subversion
-  binnames:
-    - subversion
-    - libsvn1
-    - libsvn-dev
-    - libsvn-doc
-    - libapache2-mod-svn
-    - python3-subversion
-    - subversion-tools
-    - libsvn-java
-    - libsvn-perl
-    - ruby-svn
-  visiblename: subversion
-  version: 1.14.1
-  origversion: 1.14.1-3+deb11u1
-  status: outdated
-  maintainers:
-    - jamessan@debian.org
-  categories:
-    - vcs
-  vulnerable: true
-- repo: debian_11
   subrepo: bullseye-security/main
   srcname: subversion
   binnames:
@@ -4896,6 +4954,29 @@
   visiblename: subversion
   version: 1.14.1
   origversion: 1.14.1-3+deb11u2
+  status: outdated
+  maintainers:
+    - jamessan@debian.org
+  categories:
+    - vcs
+  vulnerable: true
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: subversion
+  binnames:
+    - subversion
+    - libsvn1
+    - libsvn-dev
+    - libsvn-doc
+    - libapache2-mod-svn
+    - python3-subversion
+    - subversion-tools
+    - libsvn-java
+    - libsvn-perl
+    - ruby-svn
+  visiblename: subversion
+  version: 1.14.1
+  origversion: 1.14.1-3+deb11u1
   status: outdated
   maintainers:
     - jamessan@debian.org
@@ -4924,6 +5005,18 @@
     - jamessan@debian.org
   categories:
     - vcs
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.subversion.Subversion
+  binname: org.apache.subversion.Subversion
+  visiblename: Subversion
+  version: 1.7.9
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
   vulnerable: true
 - repo: devuan_4_0
   subrepo: chimaera/main
@@ -5094,44 +5187,6 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_40
-  subrepo: updates
-  srcname: subversion
-  binnames:
-    - subversion
-    - subversion-libs
-    - python3-subversion
-    - subversion-devel
-    - subversion-gnome
-    - subversion-kde
-    - mod_dav_svn
-    - subversion-perl
-    - subversion-ruby
-    - subversion-tools
-    - subversion-debuginfo
-    - subversion-debugsource
-  visiblename: subversion
-  version: 1.14.4
-  origversion: 1.14.4-1.fc40
-  status: outdated
-  summary: A Modern Concurrent Version Control System
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.subversion.Subversion
-  binname: org.apache.subversion.Subversion
-  visiblename: Subversion
-  version: 1.7.6
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: fedora_40
   subrepo: release
   srcname: subversion
   binnames:
@@ -5172,12 +5227,43 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: gobolinux
-  srcname: Subversion
-  visiblename: Subversion
-  version: 1.9.5
-  origversion: null
+- repo: fedora_40
+  subrepo: updates
+  srcname: subversion
+  binnames:
+    - subversion
+    - subversion-libs
+    - python3-subversion
+    - subversion-devel
+    - subversion-gnome
+    - subversion-kde
+    - mod_dav_svn
+    - subversion-perl
+    - subversion-ruby
+    - subversion-tools
+    - subversion-debuginfo
+    - subversion-debugsource
+  visiblename: subversion
+  version: 1.14.4
+  origversion: 1.14.4-1.fc40
   status: outdated
+  summary: A Modern Concurrent Version Control System
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.subversion.Subversion
+  binname: org.apache.subversion.Subversion
+  visiblename: Subversion
+  version: 1.8.3
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
   vulnerable: true
 - repo: fedora_41
   subrepo: release
@@ -5222,19 +5308,7 @@
   srcname: org.apache.subversion.Subversion
   binname: org.apache.subversion.Subversion
   visiblename: Subversion
-  version: "1.8"
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.subversion.Subversion
-  binname: org.apache.subversion.Subversion
-  visiblename: Subversion
-  version: 1.8.3
+  version: 1.8.4
   origversion: null
   status: legacy
   licenses:
@@ -5248,83 +5322,6 @@
   version: 1.6.5
   origversion: null
   status: outdated
-  vulnerable: true
-- repo: gobolinux
-  srcname: Subversion-Python
-  visiblename: Subversion-Python
-  version: 1.6.5
-  origversion: null
-  status: outdated
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: subversion
-  binname: subversion
-  visiblename: subversion
-  version: 1.14.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: subversion
-  binname: subversion
-  visiblename: subversion
-  version: 1.8.5
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: hppa_32
-  srcname: subversion
-  binname: subversion
-  visiblename: subversion
-  version: 1.9.6
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: subversion
-  binname: subversion
-  visiblename: subversion
-  version: 1.9.6
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: subversion
-  binname: subversion
-  visiblename: subversion
-  version: 1.14.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.subversion.Subversion
-  binname: org.apache.subversion.Subversion
-  visiblename: Subversion
-  version: 1.8.4
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: nix_stable_24_05
-  srcname: subversion
-  visiblename: subversion
-  version: 1.14.3
-  origversion: null
-  status: outdated
-  summary: A version control system intended to be a compelling replacement for CVS in the open source community
-  maintainers:
-    - edolstra+nixpkgs@gmail.com
-    - jason@oconal.id.au
-  licenses:
-    - Apache-2.0
   vulnerable: true
 - repo: nix_stable_24_05
   srcname: subversionClient
@@ -5344,6 +5341,31 @@
   binname: org.apache.subversion.Subversion
   visiblename: Subversion
   version: 1.8.5.1
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: nix_stable_24_05
+  srcname: subversion
+  visiblename: subversion
+  version: 1.14.3
+  origversion: null
+  status: outdated
+  summary: A version control system intended to be a compelling replacement for CVS in the open source community
+  maintainers:
+    - edolstra+nixpkgs@gmail.com
+    - jason@oconal.id.au
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.subversion.Subversion
+  binname: org.apache.subversion.Subversion
+  visiblename: Subversion
+  version: 1.8.9
   origversion: null
   status: legacy
   licenses:
@@ -5451,6 +5473,18 @@
   srcname: org.apache.subversion.Subversion
   binname: org.apache.subversion.Subversion
   visiblename: Subversion
+  version: 1.7.6
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.subversion.Subversion
+  binname: org.apache.subversion.Subversion
+  visiblename: Subversion
   version: 1.7.7
   origversion: null
   status: legacy
@@ -5464,30 +5498,6 @@
   binname: org.apache.subversion.Subversion
   visiblename: Subversion
   version: 1.7.8
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.subversion.Subversion
-  binname: org.apache.subversion.Subversion
-  visiblename: Subversion
-  version: 1.7.9
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.subversion.Subversion
-  binname: org.apache.subversion.Subversion
-  visiblename: Subversion
-  version: 1.8.9
   origversion: null
   status: legacy
   licenses:
@@ -5951,29 +5961,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
-  srcname: subversion
-  binnames:
-    - subversion
-    - libsvn1
-    - libsvn-dev
-    - libsvn-doc
-    - libapache2-mod-svn
-    - python3-subversion
-    - subversion-tools
-    - libsvn-java
-    - libsvn-perl
-    - ruby-svn
-  visiblename: subversion
-  version: 1.14.3
-  origversion: 1.14.3-ok3
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - vcs
-  vulnerable: true
 - repo: openeuler_22_03_lts_sp1
   srcname: subversion
   binnames:
@@ -6171,6 +6158,29 @@
   categories:
     - vcs
   vulnerable: true
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
+  srcname: subversion
+  binnames:
+    - subversion
+    - libsvn1
+    - libsvn-dev
+    - libsvn-doc
+    - libapache2-mod-svn
+    - python3-subversion
+    - subversion-tools
+    - libsvn-java
+    - libsvn-perl
+    - ruby-svn
+  visiblename: subversion
+  version: 1.14.3
+  origversion: 1.14.3-ok3
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - vcs
+  vulnerable: true
 - repo: openkylin_3_0
   subrepo: huanghe/main
   srcname: subversion
@@ -6325,29 +6335,6 @@
     - development/utility
   vulnerable: true
 - repo: pardus_21
-  subrepo: main
-  srcname: subversion
-  binnames:
-    - subversion
-    - libsvn1
-    - libsvn-dev
-    - libsvn-doc
-    - libapache2-mod-svn
-    - python3-subversion
-    - subversion-tools
-    - libsvn-java
-    - libsvn-perl
-    - ruby-svn
-  visiblename: subversion
-  version: 1.14.1
-  origversion: 1.14.1-3+deb11u1
-  status: outdated
-  maintainers:
-    - jamessan@debian.org
-  categories:
-    - vcs
-  vulnerable: true
-- repo: pardus_21
   subrepo: updates/main
   srcname: subversion
   binnames:
@@ -6364,6 +6351,29 @@
   visiblename: subversion
   version: 1.14.1
   origversion: 1.14.1-3+deb11u2
+  status: outdated
+  maintainers:
+    - jamessan@debian.org
+  categories:
+    - vcs
+  vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: subversion
+  binnames:
+    - subversion
+    - libsvn1
+    - libsvn-dev
+    - libsvn-doc
+    - libapache2-mod-svn
+    - python3-subversion
+    - subversion-tools
+    - libsvn-java
+    - libsvn-perl
+    - ruby-svn
+  visiblename: subversion
+  version: 1.14.1
+  origversion: 1.14.1-3+deb11u1
   status: outdated
   maintainers:
     - jamessan@debian.org
@@ -6575,16 +6585,6 @@
   maintainers:
     - volkerdi@slackware.com
   vulnerable: true
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: subversion
-  visiblename: subversion
-  version: 1.14.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-  vulnerable: true
 - repo: ubi_8
   subrepo: appstream
   srcname: subversion
@@ -6612,35 +6612,6 @@
     - Unspecified
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty-updates/main
-  srcname: subversion
-  binnames:
-    - subversion
-    - subversion-dbg
-    - libsvn1
-    - libsvn-dev
-    - libsvn-doc
-    - libapache2-mod-svn
-    - libapache2-svn
-    - python-subversion
-    - python-subversion-dbg
-    - subversion-tools
-    - libsvn-java
-    - libsvn-perl
-    - ruby-svn
-    - libsvn-ruby1.8
-  visiblename: subversion
-  version: 1.8.8
-  origversion: 1.8.8-1ubuntu3.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - jamessan@debian.org
-    - troyh@debian.org
-  categories:
-    - devel
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty/main
   srcname: subversion
   binnames:
@@ -6661,6 +6632,35 @@
   visiblename: subversion
   version: 1.8.8
   origversion: 1.8.8-1ubuntu3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+    - jamessan@debian.org
+    - troyh@debian.org
+  categories:
+    - devel
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty-updates/main
+  srcname: subversion
+  binnames:
+    - subversion
+    - subversion-dbg
+    - libsvn1
+    - libsvn-dev
+    - libsvn-doc
+    - libapache2-mod-svn
+    - libapache2-svn
+    - python-subversion
+    - python-subversion-dbg
+    - subversion-tools
+    - libsvn-java
+    - libsvn-perl
+    - ruby-svn
+    - libsvn-ruby1.8
+  visiblename: subversion
+  version: 1.8.8
+  origversion: 1.8.8-1ubuntu3.3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -6774,29 +6774,6 @@
     - universe/devel
   vulnerable: true
 - repo: ubuntu_20_04
-  subrepo: focal/universe
-  srcname: subversion
-  binnames:
-    - subversion
-    - libsvn1
-    - libsvn-dev
-    - libsvn-doc
-    - libapache2-mod-svn
-    - python-subversion
-    - subversion-tools
-    - libsvn-java
-    - libsvn-perl
-    - ruby-svn
-  visiblename: subversion
-  version: 1.13.0
-  origversion: 1.13.0-3
-  status: outdated
-  maintainers:
-    - jamessan@debian.org
-  categories:
-    - universe/devel
-  vulnerable: true
-- repo: ubuntu_20_04
   subrepo: focal-updates/universe
   srcname: subversion
   binnames:
@@ -6816,6 +6793,29 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/devel
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: subversion
+  binnames:
+    - subversion
+    - libsvn1
+    - libsvn-dev
+    - libsvn-doc
+    - libapache2-mod-svn
+    - python-subversion
+    - subversion-tools
+    - libsvn-java
+    - libsvn-perl
+    - ruby-svn
+  visiblename: subversion
+  version: 1.13.0
+  origversion: 1.13.0-3
+  status: outdated
+  maintainers:
+    - jamessan@debian.org
   categories:
     - universe/devel
   vulnerable: true
