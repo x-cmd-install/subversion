@@ -14,25 +14,15 @@ x install subversion
 
 ## 代码洞察
 
-合计: **723,144** 行代码（覆盖前 5 种语言、共 **1302** 个文件）。
+合计: **723,180** 行代码（覆盖前 5 种语言、共 **1302** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 411,898 | 81,076 | 78,561 | 576 |
+| C | 411,934 | 81,076 | 78,565 | 576 |
 | Python | 134,338 | 28,813 | 28,266 | 266 |
 | CHeader | 37,050 | 55,262 | 11,640 | 278 |
 | Svg | 31,509 | 6 | 5 | 7 |
 | Java | 24,978 | 19,406 | 5,077 | 175 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **4.5 / 10**
-
-评分最低的几项:
-
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## 源代码
 
@@ -45,18 +35,18 @@ x install subversion
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 3 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 61691
+- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 3 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 61693
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-03 | 0 | 0 | 3 | 0 | 0 | 834 |
+| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-09-25 | 0 | 0 | 0 | 0 | 0 | 7 |
+| 90d | 2026-08-26 | 0 | 0 | 0 | 0 | 0 | 19 |
+| last180d | 2026-05-28 | 0 | 0 | 0 | 0 | 0 | 89 |
+| 360d | 2025-11-29 | 0 | 0 | 0 | 0 | 0 | 377 |
+| last720d | 2024-12-04 | 0 | 0 | 3 | 0 | 0 | 836 |
 
 ## 发行版状态
 
@@ -70,7 +60,7 @@ x install subversion
 | Ubuntu 26.04 LTS | `1.14.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.14.3` | ⚠️ outdated |
 | Arch | `1.14.5` | ⚠️ outdated |
-| Homebrew | `1.15.0` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.15.0` | ✅ latest |
 | Nix unstable | `1.14.5` | ⚠️ outdated |
 | Void | `1.14.5` | ⚠️ outdated |
@@ -86,4 +76,4 @@ subversion 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/instal
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T10:29:21Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T10:48:54Z._
