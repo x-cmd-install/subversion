@@ -41,31 +41,12 @@ Total: **723,180** lines of code across **1302** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 0 | 0 | 0 | 1 |
-| last60d | 2026-09-25 | 0 | 0 | 0 | 0 | 0 | 7 |
-| 90d | 2026-08-26 | 0 | 0 | 0 | 0 | 0 | 19 |
-| last180d | 2026-05-28 | 0 | 0 | 0 | 0 | 0 | 89 |
-| 360d | 2025-11-29 | 0 | 0 | 0 | 0 | 0 | 377 |
-| last720d | 2024-12-04 | 0 | 0 | 3 | 0 | 0 | 836 |
-
-## Distribution status
-
-Reported by **496** distros on [repology.org](https://repology.org/project/subversion). **39** are ✅ on the latest upstream release, **313** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.14.5` | 🪦 legacy |
-| Debian 14 | `1.14.5` | ⚠️ outdated |
-| Debian 13 | `1.14.5` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.14.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.14.3` | ⚠️ outdated |
-| Arch | `1.14.5` | ⚠️ outdated |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `1.15.0` | ✅ latest |
-| Nix unstable | `1.14.5` | ⚠️ outdated |
-| Void | `1.14.5` | ⚠️ outdated |
-| Alpine edge | `1.14.5` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.14.5` | ⚠️ outdated |
+| 30d | 2026-10-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-30 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-05 | 0 | 0 | 3 | 0 | 0 | 1 |
 
 ## Improve this data
 
@@ -76,4 +57,4 @@ Install metadata for subversion lives in the [x-cmd/install](https://github.com/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:48:53Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:51:10Z._
