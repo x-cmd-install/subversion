@@ -2,15 +2,15 @@ about:
   description: "Mirror of Apache Subversion"
   license: Apache-2.0
   homepage: 
-  head: 6f57f53
+  head: 4fff85d
   archived: false
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T09:11:03Z
+  collectedAt: 2026-11-28T07:56:54Z
 timeline:
   created: 2009-12-31
-  lastCommit: 2026-11-26
+  lastCommit: 2026-11-27
   lastVersion: 
   lastRelease: 
   lastPrerelease: 
@@ -26,16 +26,16 @@ language:
   C: 25751170
   Python: 6995228
   Java: 1761146
-  C++: 1272688
+  C++: 1272784
   Perl: 515105
   Ruby: 471787
   Emacs Lisp: 427780
   HTML: 362623
-  M4: 247949
+  M4: 247777
   Shell: 226671
   SWIG: 192905
   Makefile: 161222
-  CMake: 75931
+  CMake: 75861
   Roff: 54093
   XSLT: 28556
   Go Template: 6328
@@ -43,66 +43,66 @@ language:
   Batchfile: 5095
   CSS: 3297
   HolyC: 3245
-totalBytes: 38568620
+totalBytes: 38568474
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 1
+    commit: 0
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 7
+    commit: 0
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 19
+    commit: 0
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 89
+    commit: 0
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
     mergedPR: 0
     openPR: 0
     closedIssue: 0
     openIssue: 0
-    commit: 377
+    commit: 0
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
     mergedPR: 0
     openPR: 3
     closedIssue: 0
     openIssue: 0
-    commit: 844
+    commit: 854
 total:
   release: 0
   mergedPR: 0
   openPR: 3
   closedIssue: 0
   openIssue: 0
-  commit: 61705
+  commit: 61715
 ---
 path: /home/runner/.x-repo/github.com/apache/subversion
-collectedAt: 2026-11-27T09:11:50Z
+collectedAt: 2026-11-28T07:57:38Z
 loc:
   C:
     code: 411934
@@ -130,7 +130,7 @@ loc:
     blanks: 5077
     files: 175
   Cpp:
-    code: 18980
+    code: 18981
     comments: 3746
     blanks: 3678
     files: 108
@@ -175,7 +175,7 @@ loc:
     blanks: 1102
     files: 48
   M4:
-    code: 3367
+    code: 3364
     comments: 1101
     blanks: 233
     files: 27
@@ -185,7 +185,7 @@ loc:
     blanks: 524
     files: 8
   CMake:
-    code: 1769
+    code: 1768
     comments: 349
     blanks: 305
     files: 13
@@ -251,8 +251,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 1313
-    blanks: 585
+    comments: 1302
+    blanks: 574
     files: 7
   Text:
     code: 0
@@ -260,9 +260,9 @@ loc:
     blanks: 3950
     files: 78
 total:
-  code: 723260
-  comments: 217986
-  blanks: 143262
+  code: 723257
+  comments: 217975
+  blanks: 143251
   files: 1782
 ---
 
